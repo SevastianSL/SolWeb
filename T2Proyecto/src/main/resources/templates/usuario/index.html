@@ -17,9 +17,10 @@
 
 	<div class="content">	
 	<div class="container mt-4">
+	<br> <br> <br>
       	<form th:action="@{/usuario/form}" th:object="${usuario}" method="post" class="needs-validation" novalidate>
 					<div class="card">
-						<div class="card-header bg-info text-white">Datos del Usuario</div>
+						<div class="card-header color-barra text-white">Datos del Usuario</div>
 						<div class="card-body">
 							<div class="row">
 								
@@ -39,7 +40,7 @@
 							<br>
 								<div class="row">
 								<div class="col-12 text-center">
-									<button type="submit" class="btn btn-dark">
+									<button type="submit" class="btn btn-warning">
 										<i class="fas fa-save"></i> Guardar Usuario
 									</button>
 								</div>
@@ -47,9 +48,9 @@
 						</div>
 					</div>
 				</form>
-				<br>
-				<div class="card">
-					<div class="card-header bg-info text-white">Categorías Registradas</div>
+				<br> <br> <br> <br> <br> <br>	
+				<div class="card mt-4">
+					<div class="card-header color-barra text-white">Categorías Registradas</div>
 					<div class="card-body">
 						<div class="table-responsive">
 							<table class="table table-bordered table-hover">

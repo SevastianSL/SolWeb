@@ -188,6 +188,20 @@ label #sidebar_btn:hover{
   opacity: 0.8;
 }
 
+.color-barra{
+	background-color: rgb(152, 83, 22) !important;
+}
+
+.bg-info{
+	background-color: rgb(152, 83, 22) !important;
+}
+
+.table .thead-dark th{
+    background-color: rgb(152,83,22) !important;
+    border-color: #e4e4e4 !important;
+}
+
+
 /* Responsive CSS */
 
 @media screen and (max-width: 780px){
@@ -271,6 +285,8 @@ label #sidebar_btn:hover{
   .active{
     display: block;
   }
+  
+  
 
   /*.mobile_nav_items{
     background: #2F323A;
