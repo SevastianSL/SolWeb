@@ -68,6 +68,7 @@
 									<th scope="col">Nombre</th>
 									<th scope="col">Direccion</th>
 									<th scope="col">Telefono</th>
+									<th scope="col">Fecha de ingreso</th>
 									<th scope="col"></th>
 								</tr>
 							</thead>
@@ -77,6 +78,7 @@
 									<td th:text="${item.nombre_empleado}"></td>
 									<td th:text="${item.direccion}"></td>
 									<td th:text="${item.telefono}"></td>
+									<td th:text="${item.fecha_ingreso}"></td>
 									<td class="text-center"><a href="#" th:id="${item.id}"
 										th:param1="${item.nombre_empleado}" th:param2="${item.direccion}"
 										th:param3="${item.telefono}" class="btn btn-warning editarEmpleado"><i
