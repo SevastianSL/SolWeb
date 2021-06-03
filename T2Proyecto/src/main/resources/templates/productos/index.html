@@ -131,7 +131,12 @@
 									th:param5="${item.precio}" th:param6="${item.descripcion}"
 									th:param7="${item.categoria.id}"
 									class="btn btn-warning editarProductos"><i
-										class="fas fa-edit"></i> Editar</a></td>
+										class="fas fa-edit"></i> Editar</a>									
+									<a th:href="@{/productos/{id}(id=${item.id})}" class="btn btn-danger">
+							   		<i class="fas fa-trash"></i> Eliminar</a>
+									</td>
+								
+										
 							</tr>
 						</tbody>
 					</table>

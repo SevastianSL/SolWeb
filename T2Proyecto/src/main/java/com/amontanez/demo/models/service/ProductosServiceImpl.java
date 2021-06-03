@@ -25,4 +25,14 @@ public class ProductosServiceImpl implements IProductoService{
 		return (List<Productos>)productoDAO.findAll();
 	}
 
+	@Override
+	public void delete(Productos productos) {
+		productoDAO.delete(productos);
+		
+	}
+
+	
+
+	
+
 }
